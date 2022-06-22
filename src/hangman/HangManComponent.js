@@ -1,4 +1,5 @@
 import React from "react";
+import { DrawComponent } from "./components/DrawComponent";
 import { KeyBoardComponent } from "./components/KeyBoardComponent";
 import "./styles.css";
 export const HangManComponent = () => {
@@ -6,6 +7,7 @@ export const HangManComponent = () => {
     <div>
       <h1>HangMan</h1>
       <hr />
+      <DrawComponent />
       <KeyBoardComponent />
     </div>
   );
